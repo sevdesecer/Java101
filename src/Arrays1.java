@@ -6,7 +6,7 @@ public class Arrays1 {
         System.out.println("Please enter the 4 numbers you want to find the avarage of: ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int c = scanner.nextInt();
+           int c = scanner.nextInt();
         int d = scanner.nextInt();
 
         int [] list = {a,b,c,d};
