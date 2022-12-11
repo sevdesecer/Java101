@@ -16,6 +16,6 @@ public class Arrays1 {
             sum += list[i];
         }
         double avarage = sum / list.length;
-        System.out.println("The avarage of list is: " + avarage);
+        System.out.println("The avarage of list is :" + avarage);
     }
 }
