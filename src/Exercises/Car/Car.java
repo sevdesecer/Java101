@@ -1,3 +1,5 @@
+package Exercises.Car;
+
 public class Car {
     String model;
     String color = " metallic grey ";

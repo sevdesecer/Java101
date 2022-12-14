@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="New_project">
-      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays8.java" afterDir="false" />
+    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="New_project_a">
+      <change beforePath="$PROJECT_DIR$/src/FindGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/FindGCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstPresident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/FirstPresident.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/OddCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalinromeInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/PalinromeInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortByHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/SortByHeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
       </method>
     </configuration>
     <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
+      <option name="MAIN_CLASS_NAME" value="Exercises.GuessTheNumber" />
       <module name="NewExercise" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670746105921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New_project_a">
+      <created>1671002428925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671002428925</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +149,7 @@
     <MESSAGE value="New_edition" />
     <MESSAGE value="New_edition.2" />
     <MESSAGE value="New_project" />
-    <option name="LAST_COMMIT_MESSAGE" value="New_project" />
+    <MESSAGE value="New_project_a" />
+    <option name="LAST_COMMIT_MESSAGE" value="New_project_a" />
   </component>
 </project>
