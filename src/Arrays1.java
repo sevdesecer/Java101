@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Arrays1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the 4 numbers you want to find the avarage of: ");
+        System.out.println(" Please enter the 4 numbers you want to find the avarage of: ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
            int c = scanner.nextInt();
