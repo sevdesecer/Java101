@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="New_project_a">
-      <change beforePath="$PROJECT_DIR$/src/FindGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/FindGCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstPresident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/FirstPresident.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OddCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/OddCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PalinromeInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/PalinromeInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortByHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/SortByHeight.java" afterDir="false" />
+    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="files was organised">
+      <change afterPath="$PROJECT_DIR$/src/Exercises/StudentInfoSystem/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/StudentInfoSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/StudentInfoSystem/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/StudentInfoSystem/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/SudokuGame/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercises/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +45,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GuessTheNumber">
-    <configuration name="Arrays1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays1" />
+  <component name="RunManager" selected="Application.SudokuSolver">
+    <configuration name="Carstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.Car.Carstart" />
       <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.Car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,10 +66,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.StudentInfoSystem.Main" />
+      <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.StudentInfoSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalinromeInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.PalinromeInteger" />
+      <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.SudokuGame.SudokuSolver" />
+      <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.SudokuGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SudokuSolver" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.Arrays1" />
+        <item itemvalue="Application.Carstart" />
+        <item itemvalue="Application.PalinromeInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671002428925</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="files was organised">
+      <created>1671003036589</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671003036589</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +206,7 @@
     <MESSAGE value="New_edition.2" />
     <MESSAGE value="New_project" />
     <MESSAGE value="New_project_a" />
-    <option name="LAST_COMMIT_MESSAGE" value="New_project_a" />
+    <MESSAGE value="files was organised" />
+    <option name="LAST_COMMIT_MESSAGE" value="files was organised" />
   </component>
 </project>

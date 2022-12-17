@@ -22,12 +22,13 @@ public class GuessTheNumber {
             System.out.println("Please enter your guess: ");
             selected = scanner.nextInt();
 
-            if (selected < 0 || selected > 500 ){
-                System.out.println("Please enter interval of '1' and '500' values.");
+            if (selected < 0 || selected > 100 ){
+                System.out.println("Please enter interval of '1' and '100' values.");
                 continue;
             }
             if (selected == number){
-                System.out.println("Congratulations, right guess! The number is " + number);
+                System.out.println("Congratulations, right guess! The number is " + number + ".");
+                isWin = true;
                 break;
             }
             else {

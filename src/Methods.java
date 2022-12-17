@@ -6,7 +6,7 @@ public class Methods {
     }
         private static void factorial () {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number : ");
+        System.out.println("Enter a number for find factorial value : ");
         int n = input.nextInt();
         int factorial = 1 ;
         while( n > 0 ) {

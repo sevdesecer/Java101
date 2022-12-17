@@ -19,10 +19,5 @@ public class While {
 
         System.out.println( b + " is between 1 and 10.Thanks." );
 
-
-
-
-
-
     }
 }
