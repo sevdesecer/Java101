@@ -5,7 +5,7 @@ import java.util.Random;
 public class MatrixDiagonalSum {
     public static int getRandomSize(){
         Random rand = new Random();
-        return rand.nextInt(10) + 1; // We added 1 because 10 is not included.
+        return rand.nextInt(10) + 1; // I added 1 because 10 is not included.
     }
     public static int[][] generateMatrix(int n){
         int [][] matrix = new int[n][n];
@@ -66,8 +66,12 @@ public class MatrixDiagonalSum {
             rightDiagonalSum += matrix[i][n - i - 1];
         }
         System.out.println("Sum of right diagonal: " + rightDiagonalSum);
-    }
+        System.out.println("Sum of left and right diagonals is " + computeSum(matrix) + ".");
 
     }
+
+
+
+}
 
 
