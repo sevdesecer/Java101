@@ -1,6 +1,6 @@
 package Exercises.MineSweeper2;
 
-import java.util.Arrays;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -35,7 +35,7 @@ public class MineSweeper2 {
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                mine[i][j] = "- ";
+                mine[i][j] = "-";
             }
         }
 
@@ -44,16 +44,16 @@ public class MineSweeper2 {
             int rowr = rand.nextInt(row); // rowr = row random
             int colr = rand.nextInt(col); // colr = column random
 
-            while (mine[rowr][colr].equals("* ")) {
+            while (mine[rowr][colr].equals("*")) {
                 rowr = rand.nextInt(row);
                 colr = rand.nextInt(col);
             }
-            mine[rowr][colr] = "* ";
+            mine[rowr][colr]="*";
         }
         return mine;
     }
 
-    public int countMines(String[][] minefield, int x /**row*/, int y /**col*/){
+    public int countMines(String[][] minefield, int x, int y){
         int count = 0;
 
         for (int i = x - 1; i <= x + 1; i++) {
@@ -61,7 +61,7 @@ public class MineSweeper2 {
               if((i < 0 || j < 0) || (i >= this.row|| j >= this.col))
                   break;
                 else{
-                    if (minefield[i][j].equals("* ")) {
+                    if (minefield[i][j].equals("*")) {
                       count++;
                     }
               }
@@ -71,7 +71,7 @@ public class MineSweeper2 {
     }
 
     public boolean doesFinish(String[][] minefield, int row, int col){
-            return minefield[row][col].equals("* ");
+            return minefield[row][col].equals("*");
         }
 
     public boolean start() {
@@ -92,11 +92,8 @@ public class MineSweeper2 {
         int totalBoxes = this.col * this.row;
         int mineNumber = this.col * this.row / 4;
 
-
         System.out.println("Please enter number of row: ");
-
         int guessRow = scanner.nextInt() - 1;
-
 
         while (!(guessRow >= 0 && guessRow < row)) {
             System.out.println("You entered an invalid value, please enter valid value in interval [1, " + (row) + "].");
@@ -104,7 +101,6 @@ public class MineSweeper2 {
         }
 
         System.out.print("Please enter number of column: ");
-
         int guessCol = scanner.nextInt() - 1;
 
         while (!(guessCol >= 0 && guessCol < col)) {
