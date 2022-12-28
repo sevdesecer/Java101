@@ -53,7 +53,7 @@ public class MineSweeper2 {
         return mine;
     }
 
-    public int countMines(String[][] minefield, int x, int y){
+    public int countMines(String[][] minefield, int x /**row*/, int y /**col*/){
         int count = 0;
 
         for (int i = x - 1; i <= x + 1; i++) {
@@ -78,7 +78,7 @@ public class MineSweeper2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\n\n================ Welcome to Minesweeper ! ================\n");
-        String[][] newBoard = this.board;//boş tahta
+        String[][] newBoard = this.board; //boş tahta
         String[][] newMine = this.minefield; //mayınlı tahta
 
         System.out.println(" <<= Mine Sweeper =>> ");

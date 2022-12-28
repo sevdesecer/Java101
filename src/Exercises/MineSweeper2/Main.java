@@ -33,10 +33,10 @@ public class Main {
             row = 20;
             col = 20;
         }
-        MineSweeper2 m1 = new MineSweeper2(row,col);
+        MineSweeper2 m2 = new MineSweeper2(row,col);
         while (true){
 
-            boolean flag = m1.start();
+            boolean flag = m2.start();
 
             if(flag){
                 break;
