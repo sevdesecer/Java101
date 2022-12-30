@@ -16,6 +16,7 @@ public class Main {
             System.out.print(": ");
             level = scanner.nextInt();
         }
+
         if (level == 1) {
             row = 4;
             col = 4;

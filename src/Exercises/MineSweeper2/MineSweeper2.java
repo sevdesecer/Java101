@@ -26,6 +26,7 @@ public class MineSweeper2 {
         return board;
     }
 
+
     public String[][] mine(int row, int col) {
 
         int minefield = (row * col) / 4;
