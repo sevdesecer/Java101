@@ -1,6 +1,4 @@
 package Exercises.MineSweeper2;
-
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -27,7 +25,7 @@ public class MineSweeper2 {
         return board;
     }
 
-    private String[][] mine(int row, int col) {
+    public String[][] mine(int row, int col) {
 
         int minefield = (row * col) / 4;
 
@@ -52,27 +50,28 @@ public class MineSweeper2 {
         }
         return mine;
     }
-
-    public int countMines(String[][] minefield, int x, int y){
+    public int countMines(String[][] minefield, int x, int y) {
         int count = 0;
 
         for (int i = x - 1; i <= x + 1; i++) {
             for (int j = y - 1; j <= y + 1; j++) {
-              if((i < 0 || j < 0) || (i >= this.row|| j >= this.col))
-                  break;
-                else{
+                // Tahmin ettiğiniz konum sınırlar dışında ise, döngüleri sonlandırır.
+                if ((i < 0 || j < 0) || (i >= this.row || j >= this.col)) {
+                    continue;
+                } else {
+                    // Tahmin ettiğiniz konum sınırlar içinde ise, mayınları saymaya devam et.
                     if (minefield[i][j].equals("*")) {
-                      count++;
+                        count++;
                     }
-              }
+                }
             }
         }
         return count;
     }
 
     public boolean doesFinish(String[][] minefield, int row, int col){
-            return minefield[row][col].equals("*");
-        }
+        return minefield[row][col].equals("*");
+    }
 
     public boolean start() {
         Scanner scanner = new Scanner(System.in);
@@ -108,8 +107,8 @@ public class MineSweeper2 {
             guessCol = scanner.nextInt() - 1;
         }
 
-        if (doesFinish(newMine,guessRow,guessCol)) {
-            System.out.println("\nGAME OVER");
+            if (doesFinish(newMine, guessRow, guessCol)) {
+                System.out.println("GAME OVER! SORRY, YOU LOST.");
 
             for (int i = 0; i < newMine.length; i++) {
                 for (int j = 0; j < newMine[i].length; j++) {
@@ -135,7 +134,6 @@ public class MineSweeper2 {
                 newBoard[guessRow][guessCol]=String.valueOf(countMines(newMine,guessRow,guessCol));
                 return false;
             }
-
         }
     }
 }

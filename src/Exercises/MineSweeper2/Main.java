@@ -11,36 +11,34 @@ public class Main {
         System.out.print(": ");
         int level = scanner.nextInt();
 
-        while(!(level > 0 && level <5)) {
+        while (!(level > 0 && level < 5)) {
             System.out.println("You entered an invalid value, please enter valid difficulty level between 1 and 4.");
             System.out.print(": ");
             level = scanner.nextInt();
         }
 
-        if (level == 1){
+        if (level == 1) {
             row = 4;
             col = 4;
-        }
-        else if (level == 2){
+        } else if (level == 2) {
             row = 6;
             col = 6;
-        }
-        else if (level == 3){
+        } else if (level == 3) {
             row = 8;
             col = 8;
-        }
-        else{
+        } else {
             row = 20;
             col = 20;
         }
-        MineSweeper2 m2 = new MineSweeper2(row,col);
-        while (true){
+        MineSweeper2 m2 = new MineSweeper2(row, col);
+        while (true) {
 
             boolean flag = m2.start();
 
-            if(flag){
+            if (flag) {
                 break;
             }
         }
     }
 }
+
