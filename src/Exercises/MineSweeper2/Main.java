@@ -30,15 +30,8 @@ public class Main {
             row = 20;
             col = 20;
         }
-        MineSweeper2 m2 = new MineSweeper2(row, col);
-        while (true) {
-
-            boolean flag = m2.start();
-
-            if (flag) {
-                break;
-            }
-        }
+        MineSweeper2 m = new MineSweeper2(row, col);
+        m.start();
     }
 }
 

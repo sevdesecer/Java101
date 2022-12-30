@@ -1,4 +1,5 @@
 package Exercises.MineSweeper2;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -6,16 +7,16 @@ public class MineSweeper2 {
     int row;
     int col;
     String[][] board;
-    String [][] minefield;
+    String[][] minefield;
     MineSweeper2(int row, int col) {
         this.row = row;
         this.col = col;
         this.board = board(row,col);
         this.minefield=mine(row,col);
     }
-    private String[][] board(int row, int column) {
+    public String[][] board(int row, int col) {
 
-        String[][] board = new String[row][column];
+        String[][] board = new String[row][col];
 
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -73,67 +74,84 @@ public class MineSweeper2 {
         return minefield[row][col].equals("*");
     }
 
-    public boolean start() {
+    public void start(){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\n\n================ Welcome to Minesweeper ! ================\n");
         String[][] newBoard = this.board; //boş tahta
         String[][] newMine = this.minefield; //mayınlı tahta
 
+        System.out.println("\n\n================ Welcome to Minesweeper ! ================\n");
+
         System.out.println(" <<= Mine Sweeper =>> ");
-        for (int i = 0; i < newBoard.length; i++) {
-            for (int j = 0; j < newBoard[i].length; j++) {
-                System.out.print(newBoard[i][j] + " ");
-            }
-            System.out.println();
-        }
 
         int totalBoxes = this.col * this.row;
-        int mineNumber = this.col * this.row / 4;
 
-        System.out.println("Please enter number of row: ");
-        int guessRow = scanner.nextInt() - 1;
+        while(true){
 
-        while (!(guessRow >= 0 && guessRow < row)) {
-            System.out.println("You entered an invalid value, please enter valid value in interval [1, " + (row) + "].");
-            guessRow = scanner.nextInt() - 1;
-        }
+            for (int i = 0; i < newBoard.length; i++) {
+                for (int j = 0; j < newBoard[i].length; j++) {
+                    System.out.print(newBoard[i][j] + " ");
+                }
+                System.out.println();
+            }
 
-        System.out.print("Please enter number of column: ");
-        int guessCol = scanner.nextInt() - 1;
-
-        while (!(guessCol >= 0 && guessCol < col)) {
-            System.out.println("You entered an invalid value, please enter valid value in interval [1, " + (col) + "].");
-            guessCol = scanner.nextInt() - 1;
-        }
-
-            if (doesFinish(newMine, guessRow, guessCol)) {
-                System.out.println("GAME OVER! SORRY, YOU LOST.");
-
+            // mine map
+            System.out.println();
             for (int i = 0; i < newMine.length; i++) {
                 for (int j = 0; j < newMine[i].length; j++) {
                     System.out.print(newMine[i][j] + " ");
                 }
                 System.out.println();
             }
-            return true;
-        }
-        else{
-            totalBoxes--;
-            if (totalBoxes == mineNumber) {
-                System.out.println("\nCONGRATULATIONS,YOU WON!!");
+
+            int mineNumber = (this.col * this.row / 4);
+
+            System.out.print("Please enter number of row: ");
+            int guessRow = scanner.nextInt() - 1;
+
+            while (!(guessRow >= 0 && guessRow < row)) {
+                System.out.print("You entered an invalid value, please enter valid value in interval [1, " + (row) + "].");
+                guessRow = scanner.nextInt() - 1;
+            }
+
+            System.out.print("Please enter number of column: ");
+            int guessCol = scanner.nextInt() - 1;
+
+            while (!(guessCol >= 0 && guessCol < col)) {
+                System.out.println("You entered an invalid value, please enter valid value in interval [1, " + (col) + "].");
+                guessCol = scanner.nextInt() - 1;
+            }
+
+            if (doesFinish(newMine, guessRow, guessCol)){
+                System.out.println("GAME OVER!");
+
                 for (int i = 0; i < newMine.length; i++) {
                     for (int j = 0; j < newMine[i].length; j++) {
                         System.out.print(newMine[i][j] + " ");
                     }
                     System.out.println();
                 }
-                return true;
+                break;
             }
             else{
-                newBoard[guessRow][guessCol]=String.valueOf(countMines(newMine,guessRow,guessCol));
-                return false;
+                totalBoxes--;
+                if (totalBoxes == mineNumber){
+                    System.out.println("!!WINNER WINNER CHICKEN DINNER!!");
+                    for (int i = 0; i < newMine.length; i++) {
+                        for (int j = 0; j < newMine[i].length; j++) {
+                            System.out.print(newMine[i][j] + " ");
+                        }
+                        System.out.println();
+                    }
+                    break;
+                }
+                else{
+                    newBoard[guessRow][guessCol]=String.valueOf(countMines(newMine,guessRow,guessCol));
+                }
             }
         }
+
     }
+
+
 }
