@@ -42,6 +42,6 @@ public class CengStudent {
     }
     static String getDepartment() {
         return DEPARTMENT;
-    }
+    } //draw.io
 }
 
