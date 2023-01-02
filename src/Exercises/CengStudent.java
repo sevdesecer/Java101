@@ -9,6 +9,7 @@ public class CengStudent {
     private LocalDate birthDate;
     private int semester;
 
+
     public CengStudent(String id,String fullName){
         this.id = id;
         this.fullName = fullName;
