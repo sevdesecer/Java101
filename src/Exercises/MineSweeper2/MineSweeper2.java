@@ -7,12 +7,12 @@ public class MineSweeper2 {
     int row;
     int col;
     String[][] board;
-    String[][] minefield;
+    String[][] mineField;
     MineSweeper2(int row, int col) {
         this.row = row;
         this.col = col;
         this.board = board(row,col);
-        this.minefield=mine(row,col);
+        this.mineField =mine(row,col);
     }
     public String[][] board(int row, int col) {
 
@@ -79,7 +79,7 @@ public class MineSweeper2 {
         Scanner scanner = new Scanner(System.in);
 
         String[][] newBoard = this.board; //boş tahta
-        String[][] newMine = this.minefield; //mayınlı tahta
+        String[][] newMine = this.mineField; //mayınlı tahta
 
         System.out.println("\n\n================ Welcome to Minesweeper ! ================\n");
 
@@ -97,13 +97,13 @@ public class MineSweeper2 {
             }
 
             // mine map
-            System.out.println();
+            /**System.out.println();
             for (int i = 0; i < newMine.length; i++) {
                 for (int j = 0; j < newMine[i].length; j++) {
                     System.out.print(newMine[i][j] + " ");
                 }
                 System.out.println();
-            }
+            } **/
 
             int mineNumber = (this.col * this.row / 4);
 
