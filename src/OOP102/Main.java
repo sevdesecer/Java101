@@ -16,7 +16,7 @@ public class Main {
         Course math = new Course("MAT101","Mat", insturcter);
         System.out.println(math.getInsturcter().getDepartment());
 
-        /*
+        /**
         Student[] stu = {std1,std2,std3};
         System.out.println("The avarage : " + math.calcAvarage(stu));
          */
