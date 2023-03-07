@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="new regulations.">
-      <change afterPath="$PROJECT_DIR$/src/Exercises/SudokuGame/SudokuSolver.java" afterDir="false" />
+    <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="new assignment(7).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +34,23 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sevde/NewExercise/src/Exercises&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Loops4">
-    <configuration name="Carstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.Car.Carstart" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sevde\NewExercise\src\Exercises" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Exercises.MineSweeper2.Main">
+    <configuration name="Exercises.MineSweeper2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.MineSweeper2.Main" />
       <module name="NewExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.Car.*" />
+          <option name="PATTERN" value="Exercises.MineSweeper2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,26 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.GuessTheNumber" />
-      <module name="NewExercise" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Loops4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops4" />
-      <module name="NewExercise" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.StudentInfoSystem.Main" />
+    <configuration name="OOP102.Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP102.Inheritance.Main" />
       <module name="NewExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.StudentInfoSystem.*" />
+          <option name="PATTERN" value="OOP102.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +71,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.SudokuGame.SudokuSolver" />
+    <configuration name="OOP102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP102.Main" />
       <module name="NewExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.SudokuGame.*" />
+          <option name="PATTERN" value="OOP102.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subjects.subjectemp2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Subjects.subjectemp2.Main" />
+      <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Subjects.subjectemp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.BeybladeGame.Test" />
+      <module name="NewExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.BeybladeGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Loops4" />
-        <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GuessTheNumber" />
-        <item itemvalue="Application.Carstart" />
+        <item itemvalue="Application.Exercises.MineSweeper2.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.OOP102.Main" />
+        <item itemvalue="Application.OOP102.Inheritance.Main" />
+        <item itemvalue="Application.Subjects.subjectemp2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +199,140 @@
       <option name="project" value="LOCAL" />
       <updated>1671275741554</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new regulations.">
+      <created>1671642498314</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671642498314</updated>
+    </task>
+    <task id="LOCAL-00012" summary="newHomework.">
+      <created>1671696562906</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671696562906</updated>
+    </task>
+    <task id="LOCAL-00013" summary="newHomework..">
+      <created>1671784189074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671784189074</updated>
+    </task>
+    <task id="LOCAL-00014" summary="newproject">
+      <created>1672136313584</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672136313584</updated>
+    </task>
+    <task id="LOCAL-00015" summary="newproject">
+      <created>1672213462639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672213462639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="MineSweeper2 is completed.">
+      <created>1672214053275</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672214053275</updated>
+    </task>
+    <task id="LOCAL-00017" summary="MineSweeper2 is perfectly completed.">
+      <created>1672230512224</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672230512224</updated>
+    </task>
+    <task id="LOCAL-00018" summary="MineSweeper2 is  completed.">
+      <created>1672411804753</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672411804753</updated>
+    </task>
+    <task id="LOCAL-00019" summary="MineSweeper2 is perfectly completed with Bariscim_Atasoy.">
+      <created>1672425064640</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672425064640</updated>
+    </task>
+    <task id="LOCAL-00020" summary="The MineSweeper was completed perfectly with the contribution of Baris Atasoy.">
+      <created>1672425359892</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672425359892</updated>
+    </task>
+    <task id="LOCAL-00021" summary="The MineSweeper was completed perfectly with the contribution of Bariscim_Atasoy.">
+      <created>1672425540393</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1672425540393</updated>
+    </task>
+    <task id="LOCAL-00022" summary="new assignment.">
+      <created>1672472754879</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672472754879</updated>
+    </task>
+    <task id="LOCAL-00023" summary="new assignment.">
+      <created>1672597260844</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672597260844</updated>
+    </task>
+    <task id="LOCAL-00024" summary="new assignment(6).">
+      <created>1672649504666</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672649504666</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new assignment(7).">
+      <created>1677838225629</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677838225629</updated>
+    </task>
+    <task id="LOCAL-00026" summary="new assignment(7).">
+      <created>1677838269138</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677838269138</updated>
+    </task>
+    <task id="LOCAL-00027" summary="new assignment(7).">
+      <created>1677854136831</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677854136831</updated>
+    </task>
+    <task id="LOCAL-00028" summary="new assignment(7).">
+      <created>1677854186374</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677854186374</updated>
+    </task>
+    <task id="LOCAL-00029" summary="new assignment(7).">
+      <created>1677873094271</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677873094271</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +353,28 @@
     <MESSAGE value="New_project_a" />
     <MESSAGE value="files was organised" />
     <MESSAGE value="new regulations." />
-    <option name="LAST_COMMIT_MESSAGE" value="new regulations." />
+    <MESSAGE value="newHomework." />
+    <MESSAGE value="newHomework.." />
+    <MESSAGE value="newproject" />
+    <MESSAGE value="MineSweeper2 is completed." />
+    <MESSAGE value="MineSweeper2 is perfectly completed." />
+    <MESSAGE value="MineSweeper2 is  completed." />
+    <MESSAGE value="MineSweeper2 is perfectly completed with Bariscim_Atasoy." />
+    <MESSAGE value="The MineSweeper was completed perfectly with the contribution of Baris Atasoy." />
+    <MESSAGE value="The MineSweeper was completed perfectly with the contribution of Bariscim_Atasoy." />
+    <MESSAGE value="new assignment." />
+    <MESSAGE value="new assignment(6)." />
+    <MESSAGE value="new assignment(7)." />
+    <option name="LAST_COMMIT_MESSAGE" value="new assignment(7)." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

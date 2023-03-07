@@ -1,4 +1,4 @@
-package OOP102.Inheritance;
+package OOP102.Worker;
 
 public class Officer extends Worker{
 
