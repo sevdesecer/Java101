@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ee1b87-87bb-49e4-a813-4246f08e0e21" name="Changes" comment="new assignment(7).">
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Monsters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Samurai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Vampire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Warriors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/GuerraMuerte/Zombie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOP102.Inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP102.Inheritance.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP102.Worker.Main" />
       <module name="NewExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOP102.Inheritance.*" />
+          <option name="PATTERN" value="OOP102.Worker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +123,6 @@
         <item itemvalue="Application.Exercises.MineSweeper2.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.OOP102.Main" />
-        <item itemvalue="Application.OOP102.Inheritance.Main" />
         <item itemvalue="Application.Subjects.subjectemp2.Main" />
       </list>
     </recent_temporary>
@@ -332,7 +339,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677873094271</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="new assignment(7).">
+      <created>1678183912326</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678183912326</updated>
+    </task>
+    <task id="LOCAL-00031" summary="new assignment(7).">
+      <created>1678183953081</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678183953081</updated>
+    </task>
+    <task id="LOCAL-00032" summary="new assignment(7).">
+      <created>1678184116893</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678184116893</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
