@@ -1,6 +1,6 @@
 package OOP102.Worker;
 
-public class Worker {
+public class Worker{
     private String nameSurname;
     private String eposta ;
     private int phoneNumber;
